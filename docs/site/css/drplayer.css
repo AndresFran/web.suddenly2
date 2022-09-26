@@ -1,0 +1,56 @@
+#player{margin:0px 0 0 0;}
+
+#player .btn{width:21px;height:21px;display:block;}
+#player .btn.play 
+{
+    background: url(../images/page3_icon_01.png) 0 0 no-repeat;
+}
+
+#player .btn.play:hover 
+{
+    background: url(../images/page3_icon_01.png) 0 -21px no-repeat;
+}
+
+
+#player .btn.pause
+{
+    background: url(../images/page3_icon_01.png) 0 -21px no-repeat;
+}
+
+#player .btn.paused
+{
+     background: url(../images/page3_icon_01.png) 0 -21px no-repeat;
+}
+
+.player{visibility: hidden;position:absolute;top:0;height:0;}
+
+#player .playlist{margin: 0 0 0 0;}
+
+#player .item{
+	
+	display:block;
+}
+#player .item:first-child{border-top:none;}
+#player .item a, #player .item span{display:block;}
+#player .item, #player .item>div{overflow:hidden;position:relative;}
+#player .item .track_content{}
+#player .item .title 
+{
+	overflow:hidden;
+	float:right;
+	font-weight:bold;
+	color:#000;
+	padding:7px 0 0 0;
+}
+#player .item .title em{
+	color:#f53e3e;
+	font-weight:normal;
+	font-style:normal;
+	}
+#player .item .title>span{width:135px;display:inline-block;padding-left:5px;}
+#player .item .btn 
+{
+    float:left; 
+    margin: 0 0 0 0;
+    cursor:pointer;
+}
